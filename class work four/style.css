@@ -1,0 +1,15 @@
+.flex-container {
+    background-color:violet;
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    background-color: rgb(114, 81, 192);
+    margin: 10px;
+    width: 100px;
+    align-items: center;
+}
